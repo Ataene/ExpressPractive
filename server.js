@@ -1,11 +1,16 @@
 const readlineSync = require("readline-sync");
 
-// let name = readlineSync.question("What is your name? ");
+let brushTeeth = readlineSync.question("Have your brushed your teeth? ");
 
-let answer = "";
-while(answer !== "STOP"){
+if (brushTeeth !== true){
 
-    answer = readlineSync.question("What is your name? ");
-    
-    console.log("Hello " + answer);
+    let goBrushTeeth = readlineSync.question("")
 }
+
+// let answer = "";
+// while(answer !== "STOP"){
+
+//     answer = readlineSync.question("What is your name? ");
+
+//     console.log("Hello " + answer);
+// }
